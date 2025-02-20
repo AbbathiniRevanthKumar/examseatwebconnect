@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page
+{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.backbtn
+{
+    padding: 20px;
+}
+
+.backbtn button
+{
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.year
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Play', sans-serif;
+    font-size: 1.3em;
+    border-radius: 20px;
+}
+
+.details
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 0px 0px 6px -1px;
+    gap :10px;
+    padding: 5px 20px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    width: 80%;
+    margin: 6px 0px;
+}
+
+.header
+{
+    font-family: 'Play', sans-serif;
+}
+.value
+{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    color: rgb(17, 0, 255);
+}
+
+
+.subHeader
+{
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 20px;
+    font-size: 1.4em;
+    font-family: 'Assistant', sans-serif;
+    flex-wrap: wrap; 
+    flex: 3;
+    margin: 4px 0px;
+}
+
+.rollNo ,.hall
+{
+    background-color: rgb(255, 255, 255);
+    padding:10px 20px; 
+    border-radius: 20px;  
+    margin: 0px 2px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 0px 0px 6px -1px;
+    align-items: center;  
+}
+
+.ele .rollNo
+{
+    flex: 2;
+    
+}
+
+.hall{
+    flex:1;
+}
+
+.heading
+{
+    color:blue;
+    text-transform: uppercase;
+}
+
+.values
+{
+    padding: 10px 0px;
+}
+
+
+.new
+{
+    display: flex;
+    gap:10px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.ele
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}

@@ -1,0 +1,35 @@
+.details
+{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rows
+{
+    padding: 20px;
+    width:90vw;
+    font-family: 'Play', sans-serif;
+}
+.row
+{
+    /* border: 2px solid black; */
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black 0px 0px 6px -1px;
+}
+
+.header
+{
+    width: 20vw;
+    color: rgb(0, 0, 0);
+}
+.value
+{
+    color: rgb(4, 0, 223);
+    width: 70vw;
+    padding: 2px 4px;
+}

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+    padding: 10px;
+}
+
+.header
+{
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-row
+{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.col
+{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button
+{
+    /* width: 100%; */
+    padding:0px 20px ;
+}
+
+
+.navbar
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex: 3;
+    padding: 10px 0px;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form
+{
+    background-color: rgb(250, 250, 250);
+    box-shadow: black 0px 0px 6px -1px;
+    border-radius: 10px;
+}
+form
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+}
+
+.form form label
+{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 2px 0px;
+    font-family: 'Play', sans-serif;
+}
+
+input
+{
+    border: none;
+    background-color: rgb(179, 255, 128);
+    margin: 2px auto;
+    width: 200px;
+    padding: 4px 20px;
+    outline: none;
+    font-family: 'Play', sans-serif;
+}
+
+.loginbtn
+{
+    background-color: rgb(80, 134, 252);
+    cursor:pointer;
+    font-size: 1.2em;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+
+
+select
+{
+    border: none;
+    padding: 4px 10px;
+    background-color: rgb(179, 255, 128);
+    margin-top: 1px;
+    outline: none;
+    font-family: 'Play', sans-serif;
+}
+
+option
+{
+    list-style: none;
+    outline: none;
+    background-color: rgba(242, 252, 233, 0.699);
+    font-family: 'Play', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 5px 10px;
+    gap:4px;
+}
+.menubar
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+}
+.menu
+{
+    height: 2px;
+    background-color: aliceblue;
+    width: 20px;
+    border-radius: 20px;
+}
+.profile{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 1s ease-in;
+    background-color: white;
+    gap: 2px;
+    margin-top: 3px;
+}
+
+.profile .item
+{
+    background-color: rgb(0, 0, 0);
+    padding: 3px 4px;
+    cursor: pointer;
+    color: rgb(11, 255, 194);
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 0.8em;
+}
+
+.error
+{
+    display: none;
+    font-family: 'Play', sans-serif;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    color: white;
+}
+
+.back{
+    padding: 5px;
+}
+
+.back button
+{
+   
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(199, 194, 194);
+    color: black;
+}

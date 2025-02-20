@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.details
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap:10px;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    box-shadow: black 0px 0px 6px -1px;
+    border-radius: 20px;
+}
+
+.profile
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 175, 177);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+    justify-content: center;
+   
+}
+
+.item
+{
+    padding: 0px 10px;
+}
+
+
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 5px 10px;
+    gap:4px;
+    background-color: black;
+}
+.menubar
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+}
+.menu
+{
+    height: 2px;
+    background-color: aliceblue;
+    width: 20px;
+    border-radius: 20px;
+}
+.profil{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 1s ease-in;
+    background-color: white;
+    gap: 2px;
+    margin-top: 3px;
+}
+
+.profil .item
+{
+    background-color: rgb(0, 0, 0);
+    padding: 3px 4px;
+    cursor: pointer;
+    color: rgb(11, 255, 194);
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 0.8em;
+}
+
+.error
+{
+    display: none;
+    font-family: 'Play', sans-serif;
+    background-color: rgb(255, 0, 0);
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    color: white;
+}
+
+.back
+{
+    padding: 20px;
+}
+
+.back button
+{
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(199, 194, 194);
+    color: black;
+}

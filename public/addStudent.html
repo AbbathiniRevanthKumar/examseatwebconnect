@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="./styles/addStudents.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="menubar" id="menubar">
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </div>
+        <div class="profil" id="profile">
+            <div class="item " id="cleardb">ClearDB</div>
+            <div class="item" id="signout">SignOut</div>
+        </div>
+    </div>
+    <div class="error" id="errMsg"></div>
+    <div class="back" id="back">
+        <button>BACK</button>
+    </div>
+    
+    <div class="page">
+        <div class="content">
+            <form action="" id="addStudentForm" class="form">
+                <label for="program">PROGRAM</label>
+                <select type="text" name="program" required id="program">
+                   
+                </select>
+                <label for="department">DEPARTMENT</label>
+                <select type="text" name="department" required id="department">
+                    
+                </select>
+                <label for="year">YEAR</label>
+                <select type="text" name="year" required id="year">
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                </select>
+                <label for="rollNo">ROLL NO</label>
+                <input type="text" name="rollNo" required id="rollNo">
+                <label for="name">STUDENT NAME</label>
+                <input type="text" name="name" required id="name">
+                <label for="enrollId">ENROLL ID</label>
+                <input type="text" name="enrollId" required id="enrollId">
+                <button type="submit" value="ADD" class="btn">ADD</button>
+            </form>
+        </div>
+    </div>
+        <script src="./scripts/addStudents.js"></script>
+        <script src="./scripts/profileNav.js"></script>
+</body>
+
+</html>
